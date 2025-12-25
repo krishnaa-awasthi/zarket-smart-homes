@@ -57,15 +57,11 @@ export function HeroSection() {
       <div className="floating-element absolute top-1/3 right-20 w-32 h-32 rounded-full bg-primary/5 blur-2xl" />
       <div className="floating-element absolute bottom-1/4 left-1/4 w-24 h-24 rounded-full bg-primary/10 blur-xl" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-10 ">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="text-center lg:text-left space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-sm text-primary font-medium">Intelligent Living Solutions</span>
-            </div>
-
+            
             <h1
               ref={titleRef}
               className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-balance"
@@ -182,10 +178,8 @@ export function HeroSection() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span className="text-sm text-muted-foreground">Scroll to explore</span>
-        <div className="w-6 h-10 rounded-full border-2 border-border flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 rounded-full bg-primary animate-bounce" />
-        </div>
+        
+        
       </div>
     </section>
   )
