@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { Zap, Shield, Leaf, Smartphone } from "lucide-react"
+import { Shield, Film, Smartphone, Lightbulb } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -11,25 +11,25 @@ gsap.registerPlugin(ScrollTrigger)
 
 const benefits = [
   {
-    icon: Zap,
-    title: "Save Electricity",
+    icon: Lightbulb,
+    title: "Smart Lighting",
     description:
-      "Smart automation reduces energy waste by up to 30% with intelligent scheduling and presence detection.",
+      "Intelligent lighting with mood control, automation, energy efficiency, and sensor-based security.",
   },
   {
     icon: Shield,
     title: "Safety & Security",
-    description: "24/7 monitoring with smart locks, cameras, and instant alerts keep your family protected.",
+    description: "One integrated system to control entry, monitor visitors, detect intrusions, and keep your home secure 24/7.",
   },
   {
-    icon: Leaf,
-    title: "Comfort & Luxury",
-    description: "Personalized ambiance control, voice commands, and automated routines for effortless living.",
+    icon: Film,
+    title: " Entertainment",
+    description: "Cinematic visuals and immersive audio—perfectly integrated for a luxury entertainment experience in every room.",
   },
   {
     icon: Smartphone,
-    title: "Remote Control",
-    description: "Control everything from anywhere with our intuitive mobile app and voice assistants.",
+    title: "Smart Control",
+    description: "Unified smart control for lights, fans, shades, and appliances via app, touch, voice, and remotes.",
   },
 ]
 
