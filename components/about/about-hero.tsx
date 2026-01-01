@@ -44,7 +44,7 @@ export function AboutHero() {
           <div className="about-hero-image relative">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
               <img
-                src="/smart-home-team-installation-professional.jpg"
+                src="/smart-home-team.png"
                 alt="Zartek Smart Homes Team"
                 className="w-full h-full object-cover"
               />

@@ -71,7 +71,7 @@ export function CTASection() {
                 size="lg"
                 className="rounded-full px-8 h-14 text-lg border-border hover:bg-secondary bg-transparent"
               >
-                <a href="tel:+919876543210">
+                <a href="tel:+919807004640">
                   <Phone className="mr-2 w-5 h-5" />
                   Call Us Now
                 </a>

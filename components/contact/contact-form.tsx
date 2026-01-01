@@ -57,15 +57,32 @@ export function ContactForm() {
   }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+  e.preventDefault()
+  setIsSubmitting(true)
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
 
-    setIsSubmitting(false)
+    if (!res.ok) {
+      const err = await res.json()
+      throw new Error(err.message || "Submission failed")
+    }
+
     setIsSubmitted(true)
+  } catch (error) {
+    console.error("Contact form error:", error)
+    alert("Failed to submit enquiry. Please try again.")
+  } finally {
+    setIsSubmitting(false)
   }
+}
+
 
   const handleChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))

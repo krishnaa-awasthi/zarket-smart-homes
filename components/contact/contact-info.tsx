@@ -12,21 +12,21 @@ const contactMethods = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: "+91 98070  04640",
+    href: "tel:+919807004640",
     description: "Mon-Sat, 9am-7pm",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "hello@zarteksmart.com",
-    href: "mailto:hello@zarteksmart.com",
+    value: "dileep@zarteksmarthomes.com",
+    href: "mailto:dileep@zarteksmarthomes.com",
     description: "We reply within 24 hours",
   },
   {
     icon: MapPin,
     label: "Office",
-    value: "123 Tech Park, Bangalore",
+    value: "H 213, Sector 63, Noida 201301 Uttar Pradesh",
     href: "#",
     description: "Karnataka 560001",
   },
@@ -110,7 +110,7 @@ export function ContactInfo() {
           Connect with us instantly on WhatsApp for quick responses to your queries.
         </p>
         <Button asChild className="w-full bg-[#25D366] hover:bg-[#25D366]/90 text-white rounded-full h-12">
-          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/919807004640" target="_blank" rel="noopener noreferrer">
             <MessageCircle className="mr-2 w-5 h-5" />
             Chat on WhatsApp
           </a>

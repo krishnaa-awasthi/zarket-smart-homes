@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Zap, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Zap, Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -14,38 +14,13 @@ export function Footer() {
               </div>
               <span className="text-xl font-bold">
                 <span className="text-primary">Zartek</span>
-                <span className="text-foreground/80"> Smart</span>
+                <span className="text-foreground/80"> Smart Homes</span>
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Transform your home into an intelligent living space with our cutting-edge smart home solutions.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-card flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Facebook className="w-5 h-5 text-muted-foreground hover:text-primary" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-card flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Twitter className="w-5 h-5 text-muted-foreground hover:text-primary" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-card flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Instagram className="w-5 h-5 text-muted-foreground hover:text-primary" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-card flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary" />
-              </a>
-            </div>
+            
           </div>
 
           {/* Quick Links */}
@@ -85,22 +60,22 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-muted-foreground text-sm">
                 <Phone className="w-4 h-4 text-primary" />
-                +91 98765 43210
+                +91 98070 04640
               </li>
               <li className="flex items-center gap-3 text-muted-foreground text-sm">
                 <Mail className="w-4 h-4 text-primary" />
-                hello@zarteksmart.com
+                dileep@zarteksmarthomes.com
               </li>
               <li className="flex items-start gap-3 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
-                123 Tech Park, Bangalore, Karnataka 560001
+                H 213, Sector 63, Noida 201301 Uttar Pradesh
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-muted-foreground text-sm">© 2025 Zartek Smart Homes. All rights reserved.</p>
+          <p className="text-muted-foreground text-sm">© 2026 Zartek Smart Homes. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">
               Privacy Policy

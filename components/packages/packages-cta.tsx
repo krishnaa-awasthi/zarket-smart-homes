@@ -59,7 +59,7 @@ export function PackagesCTA() {
               size="lg"
               className="rounded-full px-8 h-14 border-border hover:bg-secondary bg-transparent"
             >
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919807004640" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 w-5 h-5" />
                 Chat on WhatsApp
               </a>
