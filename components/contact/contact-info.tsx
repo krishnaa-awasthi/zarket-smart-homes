@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, MessageCircle, Target } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 gsap.registerPlugin(ScrollTrigger)
@@ -26,9 +26,10 @@ const contactMethods = [
   {
     icon: MapPin,
     label: "Office",
-    value: "H 213, Sector 63, Noida 201301 Uttar Pradesh",
-    href: "#",
-    description: "Karnataka 560001",
+    value: "2ND, C-196, C-BLOCK, SECTOR-63, Gautambuddha Nagar, Noida, Gautambuddha Nagar, Uttar Pradesh, 201301",
+    href: "https://maps.app.goo.gl/yK7dzgMivPQXJqt19",
+    target: "_blank",
+    description: "Uttar Pradesh 201301",
   },
   {
     icon: Clock,
