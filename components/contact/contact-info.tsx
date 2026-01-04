@@ -19,8 +19,8 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "dileep@zarteksmarthomes.com",
-    href: "mailto:dileep@zarteksmarthomes.com",
+    value: "info@zarteksmarthomes.com",
+    href: "mailto:info@zarteksmarthomes.com",
     description: "We reply within 24 hours",
   },
   {

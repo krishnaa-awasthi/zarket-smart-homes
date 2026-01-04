@@ -97,7 +97,7 @@ export function Footer() {
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground text-sm">
                   <Mail className="w-4 h-4 text-primary" />
-                  dileep@zarteksmarthomes.com
+                  info@zarteksmarthomes.com
                 </li>
                 <li className="flex items-start gap-3 text-muted-foreground text-sm">
                   <MapPin className="w-4 h-4 text-primary mt-0.5" />
